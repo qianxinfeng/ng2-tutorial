@@ -6,7 +6,7 @@ import { Location } from '@angular/common';
 import 'rxjs/add/operator/switchMap';
 
 @Component({
-  moduleId: module.id,
+
   selector: 'my-hero-detail',
   templateUrl: './hero-detail.component.html',
   styleUrls: ['./hero-detail.component.css']
