@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "angular2-quickstart",
   "scripts": {
-    "start": "webpack-dev-server --config config/webpack.dev.js --inline --hot --progress --open",
+    "dev": "webpack-dev-server --config config/webpack.dev.js --inline --hot --progress --open",
     "build": "rimraf dist && webpack --config config/webpack.prod.js --progress --hide-modules --bail",
     "lint": "tslint ./src/**/*.ts -t verbose"
   },
