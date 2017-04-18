@@ -1,2 +1,4 @@
-## angular 4.0 quickstart
+## ng2-tutorial
+> angular2 tutorial project demo
+
 
