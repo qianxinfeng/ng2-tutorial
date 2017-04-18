@@ -20,7 +20,7 @@ module.exports = {
         test: /\.ts$/,
         loaders: [{
           loader: 'awesome-typescript-loader',
-          options: { configFileName: helpers.root('src', 'tsconfig.json') }
+          options: { configFileName: helpers.root('tsconfig.json') }
         }, 'angular2-template-loader']
       },
       {
@@ -33,12 +33,12 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        exclude: helpers.root('src', 'app'),
+        exclude: helpers.root('src', 'components'),
         loader: ExtractTextPlugin.extract({ fallbackLoader: 'style-loader', loader: 'css-loader?sourceMap' })
       },
       {
         test: /\.css$/,
-        include: helpers.root('src', 'app'),
+        include: helpers.root('src', 'components'),
         loader: 'raw-loader'
       }
     ]

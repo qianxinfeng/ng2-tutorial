@@ -5,15 +5,15 @@ import { HttpModule } from '@angular/http';
 
 // Imports for loading & configuring the in-memory web api
 import { InMemoryWebApiModule } from 'angular-in-memory-web-api';
-import { InMemoryDataService } from './in-memory-data.service';
+import { InMemoryDataService } from './service/in-memory-data.service';
 
-import { AppComponent } from './app.component';
-import { HeroDetailComponent } from './hero-detail.component';
-import { HeroesComponent } from './heroes.component';
-import { HeroService } from './hero.service';
-import { DashboardComponent } from './dashboard.component';
-import { AppRoutingModule } from './app-routing.module';
-import { HeroSearchComponent } from './hero-search.component';
+import { AppComponent } from './components/app.component';
+import { HeroDetailComponent } from './components/hero-detail.component';
+import { HeroesComponent } from './components/heroes.component';
+import { HeroService } from './service/hero.service';
+import { DashboardComponent } from './components/dashboard.component';
+import { AppRoutingModule } from './router/app-routing.module';
+import { HeroSearchComponent } from './components/hero-search.component';
 
 @NgModule({
   imports: [

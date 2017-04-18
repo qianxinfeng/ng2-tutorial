@@ -1,10 +1,10 @@
 {
-  "name": "angular2-quickstart",
+  "name": "ng2-tutorial",
   "version": "1.0.0",
-  "description": "angular2-quickstart",
+  "description": "angular2 tutorial",
   "scripts": {
-    "dev": "webpack-dev-server --config config/webpack.dev.js --inline --hot --progress --open",
-    "build": "rimraf dist && webpack --config config/webpack.prod.js --progress --hide-modules --bail",
+    "dev": "webpack-dev-server --config build/webpack.dev.js --inline --hot --progress --open",
+    "build": "rimraf dist && webpack --config build/webpack.prod.js --progress --hide-modules --bail",
     "lint": "tslint ./src/**/*.ts -t verbose"
   },
   "keywords": [],
